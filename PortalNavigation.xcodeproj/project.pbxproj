@@ -12,6 +12,11 @@
 		3E4226D8226C7E2E002315DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4226D6226C7E2E002315DC /* Main.storyboard */; };
 		3E4226DA226C7E2F002315DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E4226D9226C7E2F002315DC /* Assets.xcassets */; };
 		3E4226DD226C7E2F002315DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4226DB226C7E2F002315DC /* LaunchScreen.storyboard */; };
+		3E4226E5226C8511002315DC /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4226E4226C8511002315DC /* HomeTableViewCell.swift */; };
+		3E4226E7226C8520002315DC /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4226E6226C8520002315DC /* ButtonTableViewCell.swift */; };
+		3E4226E9226C852D002315DC /* PageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4226E8226C852D002315DC /* PageTableViewCell.swift */; };
+		3EA449AE226CA950007B25D9 /* PlusAndDisclosureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA449AD226CA950007B25D9 /* PlusAndDisclosureDelegate.swift */; };
+		3EA449B0226CAB7E007B25D9 /* UIViewController+showInputDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA449AF226CAB7E007B25D9 /* UIViewController+showInputDialog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		3E4226D9226C7E2F002315DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E4226DC226C7E2F002315DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E4226DE226C7E2F002315DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4226E4226C8511002315DC /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		3E4226E6226C8520002315DC /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		3E4226E8226C852D002315DC /* PageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTableViewCell.swift; sourceTree = "<group>"; };
+		3EA449AD226CA950007B25D9 /* PlusAndDisclosureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusAndDisclosureDelegate.swift; sourceTree = "<group>"; };
+		3EA449AF226CAB7E007B25D9 /* UIViewController+showInputDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+showInputDialog.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				3E4226D2226C7E2E002315DC /* AppDelegate.swift */,
+				3EA449AD226CA950007B25D9 /* PlusAndDisclosureDelegate.swift */,
+				3E4226E4226C8511002315DC /* HomeTableViewCell.swift */,
+				3E4226E6226C8520002315DC /* ButtonTableViewCell.swift */,
+				3E4226E8226C852D002315DC /* PageTableViewCell.swift */,
 				3E4226D4226C7E2E002315DC /* ViewController.swift */,
+				3EA449AF226CAB7E007B25D9 /* UIViewController+showInputDialog.swift */,
 				3E4226D6226C7E2E002315DC /* Main.storyboard */,
 				3E4226D9226C7E2F002315DC /* Assets.xcassets */,
 				3E4226DB226C7E2F002315DC /* LaunchScreen.storyboard */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA449B0226CAB7E007B25D9 /* UIViewController+showInputDialog.swift in Sources */,
+				3E4226E5226C8511002315DC /* HomeTableViewCell.swift in Sources */,
 				3E4226D5226C7E2E002315DC /* ViewController.swift in Sources */,
 				3E4226D3226C7E2E002315DC /* AppDelegate.swift in Sources */,
+				3EA449AE226CA950007B25D9 /* PlusAndDisclosureDelegate.swift in Sources */,
+				3E4226E7226C8520002315DC /* ButtonTableViewCell.swift in Sources */,
+				3E4226E9226C852D002315DC /* PageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
